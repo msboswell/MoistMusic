@@ -1,0 +1,19 @@
+{
+	"name": "moist-music",
+	"version": "1.0.0",
+	"description": "discord music bot for moist freedom",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"@discordjs/opus": "^0.2.1",
+		"discord.js": "^12.2.0",
+		"ffmpeg": "^0.0.4",
+		"fluent-ffmpeg": "^2.1.2",
+		"node-gyp": "^6.1.0",
+		"youtube-search": "^1.1.4",
+		"ytdl-core": "^2.1.1"
+	}
+}
